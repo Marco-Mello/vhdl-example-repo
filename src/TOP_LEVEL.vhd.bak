@@ -1,7 +1,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity TOP_LEVEL is
+entity aula7 is
   generic ( 
     larguraDados : natural := 8;
     enderecoRom  : natural := 9;
@@ -22,7 +22,7 @@ entity TOP_LEVEL is
   );
 end entity;
 
-architecture arquitetura of TOP_LEVEL is
+architecture arquitetura of aula7 is
 
   -- Sinais de conexão
   signal cpu_ROMADDRESS, cpu_DATAADDRESS      : std_logic_vector(8 downto 0);
