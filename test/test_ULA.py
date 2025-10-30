@@ -12,13 +12,13 @@ async def test_dut_add(dut):
     await Timer(1, units="ns")  # Espera a propagação
 
     expected = 0b10000000  # valor binário nativo (inteiro)
-    got = int(dut.saida_s.value.binstr, 2)  # converte string binária → inteiro
+    got = int(dut.saida.value.binstr, 2)  # converte string binária → inteiro
 
     assert got == expected, (
         f"Erro: a={dut.entradaA.value.binstr.zfill(8)}, "
         f"b={dut.entradaB.value.binstr.zfill(8)}, "
         f"esperado={format(expected, '08b')} ({expected}), "
-        f"obtido={dut.saida_s.value.binstr.zfill(8)} ({got})"
+        f"obtido={dut.saida.value.binstr.zfill(8)} ({got})"
     )
     
     pass
@@ -34,13 +34,13 @@ async def test_dut_sub(dut):
     await Timer(1, units="ns")  # Espera a propagação
 
     expected = 0b01111110  # valor binário nativo (inteiro)
-    got = int(dut.saida_s.value.binstr, 2)  # converte string binária → inteiro
+    got = int(dut.saida.value.binstr, 2)  # converte string binária → inteiro
 
     assert got == expected, (
         f"Erro: a={dut.entradaA.value.binstr.zfill(8)}, "
         f"b={dut.entradaB.value.binstr.zfill(8)}, "
         f"esperado={format(expected, '08b')} ({expected}), "
-        f"obtido={dut.saida_s.value.binstr.zfill(8)} ({got})"
+        f"obtido={dut.saida.value.binstr.zfill(8)} ({got})"
     )
     pass
 
@@ -55,13 +55,13 @@ async def test_dut_pass_b(dut):
     await Timer(1, units="ns")  # Espera a propagação
 
     expected = 0b00000001  # valor binário nativo (inteiro)
-    got = int(dut.saida_s.value.binstr, 2)  # converte string binária → inteiro
+    got = int(dut.saida.value.binstr, 2)  # converte string binária → inteiro
 
     assert got == expected, (
         f"Erro: a={dut.entradaA.value.binstr.zfill(8)}, "
         f"b={dut.entradaB.value.binstr.zfill(8)}, "
         f"esperado={format(expected, '08b')} ({expected}), "
-        f"obtido={dut.saida_s.value.binstr.zfill(8)} ({got})"
+        f"obtido={dut.saida.value.binstr.zfill(8)} ({got})"
     )
     pass
 
@@ -76,12 +76,12 @@ async def test_dut_flag(dut):
     await Timer(1, units="ns")  # Espera a propagação
 
     expected = 0b00000000  # valor binário nativo (inteiro)
-    got = int(dut.saida_s.value.binstr, 2)  # converte string binária → inteiro
+    got = int(dut.saida.value.binstr, 2)  # converte string binária → inteiro
 
     assert got == expected, (
         f"Erro: a={dut.entradaA.value.binstr.zfill(8)}, "
         f"b={dut.entradaB.value.binstr.zfill(8)}, "
         f"esperado={format(expected, '08b')} ({expected}), "
-        f"obtido={dut.saida_s.value.binstr.zfill(8)} ({got})"
+        f"obtido={dut.saida.value.binstr.zfill(8)} ({got})"
     )
     pass
