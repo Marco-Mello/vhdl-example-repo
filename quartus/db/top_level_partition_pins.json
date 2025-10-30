@@ -4,311 +4,119 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "PC_OUT[0]",
+					"name" : "saida[0]",
 					"strict" : false
 				},
 				{
-					"name" : "PC_OUT[1]",
+					"name" : "saida[1]",
 					"strict" : false
 				},
 				{
-					"name" : "PC_OUT[2]",
+					"name" : "saida[2]",
 					"strict" : false
 				},
 				{
-					"name" : "PC_OUT[3]",
+					"name" : "saida[3]",
 					"strict" : false
 				},
 				{
-					"name" : "PC_OUT[4]",
+					"name" : "saida[4]",
 					"strict" : false
 				},
 				{
-					"name" : "PC_OUT[5]",
+					"name" : "saida[5]",
 					"strict" : false
 				},
 				{
-					"name" : "PC_OUT[6]",
+					"name" : "saida[6]",
 					"strict" : false
 				},
 				{
-					"name" : "PC_OUT[7]",
+					"name" : "saida[7]",
 					"strict" : false
 				},
 				{
-					"name" : "PC_OUT[8]",
+					"name" : "saidaFlag",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[0]",
+					"name" : "saidaFlagGreater",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[1]",
+					"name" : "saidaFlagLess",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[2]",
+					"name" : "seletor[0]",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[3]",
+					"name" : "seletor[1]",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[4]",
+					"name" : "entradaB[0]",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[5]",
+					"name" : "entradaB[1]",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[6]",
+					"name" : "entradaB[2]",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[7]",
+					"name" : "entradaB[3]",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[8]",
+					"name" : "entradaB[4]",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[9]",
+					"name" : "entradaB[5]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX0[0]",
+					"name" : "entradaB[6]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX0[1]",
+					"name" : "entradaB[7]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX0[2]",
+					"name" : "entradaA[4]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX0[3]",
+					"name" : "entradaA[5]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX0[4]",
+					"name" : "entradaA[6]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX0[5]",
+					"name" : "entradaA[7]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX0[6]",
+					"name" : "entradaA[2]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX1[0]",
+					"name" : "entradaA[3]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX1[1]",
+					"name" : "entradaA[0]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX1[2]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX1[3]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX1[4]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX1[5]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX1[6]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX2[0]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX2[1]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX2[2]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX2[3]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX2[4]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX2[5]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX2[6]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX3[0]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX3[1]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX3[2]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX3[3]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX3[4]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX3[5]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX3[6]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX4[0]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX4[1]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX4[2]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX4[3]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX4[4]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX4[5]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX4[6]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX5[0]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX5[1]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX5[2]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX5[3]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX5[4]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX5[5]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX5[6]",
-					"strict" : false
-				},
-				{
-					"name" : "CLOCK_50",
-					"strict" : false
-				},
-				{
-					"name" : "SW[5]",
-					"strict" : false
-				},
-				{
-					"name" : "SW[0]",
-					"strict" : false
-				},
-				{
-					"name" : "KEY[2]",
-					"strict" : false
-				},
-				{
-					"name" : "SW[8]",
-					"strict" : false
-				},
-				{
-					"name" : "SW[9]",
-					"strict" : false
-				},
-				{
-					"name" : "FPGA_RESET_N",
-					"strict" : false
-				},
-				{
-					"name" : "SW[1]",
-					"strict" : false
-				},
-				{
-					"name" : "SW[3]",
-					"strict" : false
-				},
-				{
-					"name" : "SW[2]",
-					"strict" : false
-				},
-				{
-					"name" : "SW[7]",
-					"strict" : false
-				},
-				{
-					"name" : "SW[4]",
-					"strict" : false
-				},
-				{
-					"name" : "SW[6]",
-					"strict" : false
-				},
-				{
-					"name" : "KEY[0]",
-					"strict" : false
-				},
-				{
-					"name" : "KEY[1]",
-					"strict" : false
-				},
-				{
-					"name" : "KEY[3]",
+					"name" : "entradaA[1]",
 					"strict" : false
 				}
 			]

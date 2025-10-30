@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Tue Oct 21 11:08:22 2025
+Analysis & Synthesis Status : Successful - Thu Oct 30 11:14:41 2025
 Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
 Revision Name : top_level
-Top-level Entity Name : TOP_LEVEL
+Top-level Entity Name : ULASomaSub
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 681
-Total pins : 77
+Total registers : 0
+Total pins : 29
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0
